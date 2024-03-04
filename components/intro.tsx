@@ -3,10 +3,15 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from "framer-motion";
+import Link from 'next/link';
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi"
+import { FaGithubSquare } from "react-icons/fa";
+
 
 export default function Intro() {
   return (
-    <section className='mt-[-28rem]'>
+    <section className='mt-[-28rem] max-w-[50rem] text-center sm:mb-0'>
       <div className="flex items-center justify-center">
         <div className="relative">
             <motion.div
@@ -40,6 +45,36 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
+      <motion.p className='mb-10 mt-7 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+      initial={{ opacity:0, y:100}}
+      animate={{ opacity:1, y:0}}>
+      <span className="font-bold">Hello, I'm Melissa.</span> I'm a{" "}
+        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">3 years</span> of experience. I enjoy
+        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="underline">React (Next.js)</span>.
+      </motion.p>
+
+      <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
+      initial={{ opacity:0, y:100}}
+      animate={{ opacity:1, y:0}}
+      transition={{
+        delay: 0.13
+      }}>
+        <Link href="contact" className=' group flex items-center gap-2 rounded-full  bg-gray-900 text-white px-7 py-3
+        outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'>Contact me here
+        <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/> </Link>
+        <a href="/CV.pdf" download={true} className='group flex items-center gap-2 border border-black/10 rounded-full bg-white px-7 py-3 outline-none focus:scale-110 
+        hover:scale-110 active:scale-105 transition cursor-pointer'>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition '/></a>
+        <a href="https://linkedin.com" className='flex items-center gap-2 rounded-full bg-white text-gray-700 p-4 border border-black/10 outline-none focus:scale-110 
+        hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer'>
+            <BsLinkedin/>
+        </a>
+        <a className='flex items-center gap-2 text-[1.23rem] rounded-full bg-white text-gray-700 p-4 border border-black/10 outline-none focus:scale-110 
+        hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer'>
+            <FaGithubSquare/>
+        </a>
+      </motion.div>
     </section>
   );
 }
