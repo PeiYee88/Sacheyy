@@ -7,23 +7,14 @@ import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from "react-icons/fa";
-import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section-context';
+import { useSectionInView } from '@/lib/hooks';
 
 
 export default function Intro() {
-    const {ref, inView} = useInView({
-    threshold: 0.5
-    });
-    const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
+    const { ref } = useSectionInView("Home", 0.5);
 
-    useEffect(() => {
-    if (inView && Date.now() - timeOfLastClick > 1000) {
-    setActiveSection("Projects");
-    }
-    }, [inView, setActiveSection, timeOfLastClick])
     return (
-        <section id="home" className='mt-[-28rem] max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
+        <section ref={ref} id="home" className='mt-[-28rem] max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
         <div className="flex items-center justify-center">
             <div className="relative">
                 <motion.div

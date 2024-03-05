@@ -3,8 +3,8 @@
 import React from 'react'
 import { useState, useContext, createContext } from 'react';
 import { links } from '@/lib/data';
+import type { SectionName } from '@/lib/types';
 
-type SectionName = typeof links[number]["name"];
 type ActiveSectionContextProviderProps = {
     children: React.ReactNode;
 }
