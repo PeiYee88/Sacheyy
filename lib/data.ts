@@ -28,26 +28,32 @@ export const links = [
     },
   ] as const;
 
-  export const projectsData = [
-    {
-      title: "Project 1",
-      description:
-        "Placeholder",
-      tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-      imageUrl: placeholder,
-    },
-    {
-      title: "Project 2",
-      description:
-        "Placeholder",
-      tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-      imageUrl: placeholder,
-    },
-    {
-      title: "Project 3",
-      description:
-        "Placeholder",
-      tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-      imageUrl: placeholder,
-    },
-  ] as const;
+export const projectsData = [
+{
+    title: "Project 1",
+    description:
+    "Placeholder",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: placeholder,
+},
+{
+    title: "Project 2",
+    description:
+    "Placeholder",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: placeholder,
+},
+{
+    title: "Project 3",
+    description:
+    "Placeholder",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: placeholder,
+},
+] as const;
+
+export const skillsData = [
+    "test1",
+    "test2",
+] as const;
+
