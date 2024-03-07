@@ -1,7 +1,10 @@
 import React from "react";
-import placeholder from "@/public/my_potrait.png"; 
+import bnbguru from "@/public/bnb_guru.png"; 
+import studybuddy from "@/public/study_buddy.png"; 
+import codeguardian from "@/public/code_guardian.png"; 
+import spongebob from "@/public/spongebob_square_manager.png"; 
+import checkup from "@/public/check_up.png"; 
 import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
 
 
 export const links = [
@@ -37,42 +40,42 @@ export const projectsData = [
     description:
     "A desktop application designed to assist users in managing their finances by facilitating budget management and providing monitoring of daily expenditures",
     tags: ["Django", "MaterializeCSS", "MySQL"],
-    imageUrl: placeholder,
+    imageUrl: checkup,
 },
 {
     title: "checkUp",
     description:
     "An advanced database management system tailored for medical institutions to effectively maintain and monitor comprehensive patient information.",
     tags: ["Java 11", "JUnit", "Gradle"],
-    imageUrl: placeholder,
+    imageUrl: checkup,
 },
 {
     title: "BnB Guru",
     description:
     "A machine learning project focused on predicting Airbnb prices, enabling landlords to optimize pricing strategies based on factors such as location, ratings, and other relevant features",
     tags: ["NumPy", "Decision Forest", "Neural Network", "Scikit"],
-    imageUrl: placeholder,
+    imageUrl: bnbguru,
 },
 {
   title: "SpongeBob Square-Manager",
   description:
-  "A chatbot that helps users to manage their tasks efficiently",
+  "A Spongebob-themed chatbot that helps users to manage their tasks efficiently",
   tags: ["Java 11", "JUnit", "Gradle", ],
-  imageUrl: placeholder,
+  imageUrl: spongebob,
 },
 {
   title: "Code Guardian",
   description:
   "A static program analyser that enables user to examine code at compile level",
   tags: ["C++", "Catch2"],
-  imageUrl: placeholder,
+  imageUrl: codeguardian,
 },
 {
   title: "Study Buddy",
   description:
   "An Android application that allows students to form study dates based on their preference.",
   tags: ["React Native", "Google Firebase", "React Redux"],
-  imageUrl: placeholder,
+  imageUrl: studybuddy,
 },
 ] as const;
 
