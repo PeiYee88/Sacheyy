@@ -46,7 +46,7 @@ export const projectsData = [
 {
     title: "PennyWise",
     description:
-    "A desktop application designed to assist users in managing their finances by facilitating budget management and providing monitoring of daily expenditures",
+    "A desktop application designed to assist users in monitoring daily expenditures in alignment with their budget.",
     tags: ["Django", "MaterializeCSS", "MySQL"],
     imageUrl: pennywise,
 },
@@ -54,16 +54,9 @@ export const projectsData = [
 {
     title: "BnB Guru",
     description:
-    "A machine learning project focused on predicting Airbnb prices, enabling landlords to optimize pricing strategies based on factors such as location, ratings, and other relevant features",
+    "A machine learning project focused on predicting Airbnb prices, enabling landlords to optimize pricing strategies based on factors such as location, ratings, and etc.",
     tags: ["NumPy", "Decision Forest", "Neural Network", "Scikit"],
     imageUrl: bnbguru,
-},
-{
-  title: "SpongeBob Square-Manager",
-  description:
-  "A Spongebob-themed chatbot that helps users to manage their tasks efficiently",
-  tags: ["Java 11", "JUnit", "Gradle", ],
-  imageUrl: spongebob,
 },
 {
   title: "Code Guardian",
@@ -72,12 +65,20 @@ export const projectsData = [
   tags: ["C++", "Catch2"],
   imageUrl: codeguardian,
 },
+
 {
   title: "Study Buddy",
   description:
   "An Android application that allows students to form study dates based on their preference.",
   tags: ["React Native", "Google Firebase", "React Redux"],
   imageUrl: studybuddy,
+},
+{
+  title: "SpongeBob Square-Manager",
+  description:
+  "A Spongebob SquarePants-themed chatbot that helps users to manage their tasks efficiently.",
+  tags: ["Java 11", "JUnit", "Gradle", ],
+  imageUrl: spongebob,
 },
 ] as const;
 

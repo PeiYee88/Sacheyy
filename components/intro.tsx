@@ -73,13 +73,13 @@ export default function Intro() {
                 setTimeOfLastClick(Date.now());
             }}>Contact me here
             <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/> </Link>
-            <a href="/CV.pdf" download={true} className='group flex items-center gap-2 borderBlack rounded-full bg-white px-7 py-3 outline-none focus:scale-110 
+            <a href="../public/cv.pdf" download={true} className='group flex items-center gap-2 borderBlack rounded-full bg-white px-7 py-3 outline-none focus:scale-110 
             hover:scale-110 active:scale-105 transition cursor-pointer'>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition '/></a>
-            <a href="https://linkedin.com" target="_blank" className='flex items-center gap-2 rounded-full bg-white text-gray-700 p-4  borderBlack outline-none focus:scale-110 
+            <a href="https://www.linkedin.com/in/melissa-cheng-7347ba256/" target="_blank" className='flex items-center gap-2 rounded-full bg-white text-gray-700 p-4  borderBlack outline-none focus:scale-110 
             hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer'>
                 <BsLinkedin/>
             </a>
-            <a href="https://github.com" target="_blank" className='flex items-center gap-2 text-[1.23rem] rounded-full bg-white text-gray-700 p-4 borderBlack outline-none focus:scale-110 
+            <a href="https://github.com/PeiYee88" target="_blank" className='flex items-center gap-2 text-[1.23rem] rounded-full bg-white text-gray-700 p-4 borderBlack outline-none focus:scale-110 
             hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer'>
                 <FaGithubSquare/>
             </a>
