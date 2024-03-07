@@ -4,6 +4,7 @@ import studybuddy from "@/public/study_buddy.png";
 import codeguardian from "@/public/code_guardian.png"; 
 import spongebob from "@/public/spongebob_square_manager.png"; 
 import checkup from "@/public/check_up.png"; 
+import pennywise from "@/public/pennywise.png"; 
 import { CgWorkAlt } from "react-icons/cg";
 
 
@@ -35,20 +36,21 @@ export const links = [
   ] as const;
 
 export const projectsData = [
-{
-    title: "PennyWise",
-    description:
-    "A desktop application designed to assist users in managing their finances by facilitating budget management and providing monitoring of daily expenditures",
-    tags: ["Django", "MaterializeCSS", "MySQL"],
-    imageUrl: checkup,
-},
-{
+  {
     title: "checkUp",
     description:
     "An advanced database management system tailored for medical institutions to effectively maintain and monitor comprehensive patient information.",
     tags: ["Java 11", "JUnit", "Gradle"],
     imageUrl: checkup,
 },
+{
+    title: "PennyWise",
+    description:
+    "A desktop application designed to assist users in managing their finances by facilitating budget management and providing monitoring of daily expenditures",
+    tags: ["Django", "MaterializeCSS", "MySQL"],
+    imageUrl: pennywise,
+},
+
 {
     title: "BnB Guru",
     description:
