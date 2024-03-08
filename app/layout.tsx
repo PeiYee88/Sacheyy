@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Pei Yee | Portfolio',
-  description: 'A final year Computer Science student from NUS',
+  description: 'A final year Computer Science student from NUS, currently looking for full-time tech roles',
 }
 
 export default function RootLayout({
