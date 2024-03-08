@@ -18,23 +18,23 @@ export default function About() {
    id="about">
     <SectionHeading>About me</SectionHeading>
     <p className='mb-3'>
-         My core stack
-        is{" "}
+         I am a 
+        {" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Final Year Undergraduate {" "} 
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        student at the National University of Singapore.{" "} I am actively looking for a {" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        developer. I am also open to exploring other opportunities that align with my skills and aspirations. 
     </p>
     <p>
-    <span className="italic">When I not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+    <span>
+    I thrive on the excitement of learning and embracing new technologies through hands-on projects.         </span>
+    <span className="italic">When I'm not coding</span>,you'll discover me either navigating outdoor trails, soaking 
+    in the wonders of nature, or engaging in handicraft projects within the comfort of my room. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I m also
-        learning how to play the guitar.
+        <span className="font-medium">German and skateboarding</span>.
     </p>
    </motion.section>
   );
