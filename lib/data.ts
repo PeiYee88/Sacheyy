@@ -108,10 +108,10 @@ export const experiencesData = [
           `
           "During my internship, I developed automation scripts in Python to streamline data scraping from Jenkins and conducted 
           thorough data analysis to extract valuable deployment statistics. Additionally, I 
-          implemented MongoDB and Elastic Search as the backend infrastructure, integrating
+          implemented MongoDB and Elastic Search as the backend infrastructure, integrated
            the project with Grafana for intuitive data visualization. This integration significantly improved overall 
            project workflows. In the middle of my internship, I took on the responsibility of facilitating the 
-           onboarding process for teams within the AEC Division and regularly conducted sharing sessions to generate interest from additional teams."
+           onboarding process for teams within the AEC Division and regularly conducted sharing sessions to garner interest on my project from additional teams."
           `,
         icon: React.createElement(CgWorkAlt),
         date: "Jan 2023 - Jun 2023",
