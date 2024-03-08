@@ -27,7 +27,7 @@ export default function Intro() {
                     duration: 0.2
                 }}>
                 <Image
-                src="/my_potrait.png"
+                src="/my_portrait.jpg"
                 alt="My portrait"
                 width="192"
                 height="192"
