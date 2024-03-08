@@ -61,7 +61,7 @@ export const projectsData = [
 {
   title: "Code Guardian",
   description:
-  "A static program analyser that enables user to examine code at compile level",
+  "A static program analyser that enables user to examine code at compile level.",
   tags: ["C++", "Catch2"],
   imageUrl: codeguardian,
 },

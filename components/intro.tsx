@@ -53,11 +53,11 @@ export default function Intro() {
         <motion.h1 className='mb-10 mt-7 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{ opacity:0, y:100}}
         animate={{ opacity:1, y:0}}>
-        <span className="font-bold">Hello, I&apos;m Melissa.</span> I&apos;m a{" "}
-            <span className="font-bold">full-stack developer</span> with{" "}
-            <span className="font-bold">3 years</span> of experience. I enjoy
-            building <span className="italic">sites & apps</span>. My focus is{" "}
-            <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I'm Melissa.</span> I'm a dynamic{" "}
+            <span className="font-bold">software developer</span> with a rich{" "}
+            <span className="font-bold">2 years</span> of experience in bringing ideas to life through innovative technology.  My passion lies in the realms of 
+             <span className="italic underline">AI/ML & software development</span>
+             <span>.</span>
         </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
@@ -73,7 +73,7 @@ export default function Intro() {
                 setTimeOfLastClick(Date.now());
             }}>Contact me here
             <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/> </Link>
-            <a href="../public/cv.pdf" download={true} className='group flex items-center gap-2 borderBlack rounded-full bg-white px-7 py-3 outline-none focus:scale-110 
+            <a href="/cv.pdf" download={true} className='group flex items-center gap-2 borderBlack rounded-full bg-white px-7 py-3 outline-none focus:scale-110 
             hover:scale-110 active:scale-105 transition cursor-pointer'>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition '/></a>
             <a href="https://www.linkedin.com/in/melissa-cheng-7347ba256/" target="_blank" className='flex items-center gap-2 rounded-full bg-white text-gray-700 p-4  borderBlack outline-none focus:scale-110 
             hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer'>
