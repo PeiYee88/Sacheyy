@@ -30,7 +30,7 @@ export default function About() {
     <p>
     <span>
     I thrive on the excitement of learning and embracing new technologies through hands-on projects.         </span>
-    <span className="italic">When I&apos;m not coding</span>,you'll discover me either navigating outdoor trails, soaking 
+    <span className="italic">When I&apos;m not coding</span>,{" "}you'll discover me either navigating outdoor trails, soaking 
     in the wonders of nature, or engaging in handicraft projects within the comfort of my room. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
